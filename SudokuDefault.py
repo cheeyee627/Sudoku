@@ -73,7 +73,6 @@ def print_board(bo) : # function to display board with bounding box separators
             else :
                 print(str(bo[i][j]) +" ", end="")
 
-print_board(board)
 
 def find_empty(bo) :
     for i, row in enumerate(bo):
